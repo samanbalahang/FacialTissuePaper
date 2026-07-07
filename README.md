@@ -176,3 +176,6 @@ This theme is provided for personal and commercial WordPress projects.
 
 Demo:
 🚀 [View Demo](http://samanbalahang.github.io/FacialTissuePaper/index.html)
+
+https://shorturl.at/8zVe9
+https://www.shorturl.at/url-total-clicks.php?u=shorturl.at/8zVe9
