@@ -1,6 +1,7 @@
 window.addEventListener("DOMContentLoaded", () => {
     let scrollPosition      = 0;
     let desktopHeader       = document.querySelector(".desktop-header");
+    let mobileHeader       = document.querySelector(".mobile-header");
     let navigationSwiper    = document.querySelector(".navigation-swiper");
     const placeholder       = document.querySelector(".header-placeholder");
     const productsSwiper    = document.querySelector(".products-swiper");
@@ -19,6 +20,12 @@ window.addEventListener("DOMContentLoaded", () => {
     if(placeholder) {
         if (screenWidth > 767) {
             placeholder.style.height = desktopHeader.offsetHeight + "px";
+        }else{
+            let minus = 50
+            let final = mobileHeader.offsetHeight;
+            placeholder.style.height = 0  + "px";
+            console.log(final - minus);
+            
         }
     }
     if(navigationSwiper) {
@@ -76,9 +83,13 @@ window.addEventListener("DOMContentLoaded", () => {
                     spaceBetween: 40,
                 },
                 1024: {
-                    slidesPerView: 5,
+                    slidesPerView: 3,
                     spaceBetween: 50,
                 },
+                1440:{
+                      slidesPerView: 5,
+                    spaceBetween: 50,
+                }
             },
         });
     }

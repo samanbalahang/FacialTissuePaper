@@ -157,21 +157,27 @@ p {
 }
 
 .first-slider {
-  background: url(../images/slide-mobile-01.webp);
+  background-color: #8ea9c4;
+  background-image: url(../images/slide-mobile-01.webp);
+  background-repeat: no-repeat;
   min-height: 100vh;
   width: 100%;
   background-size: cover;
 }
 
 .second-slider {
-  background: url(../images/slide-mobile-02.webp);
+  background-color: #8ea9c4;
+  background-image: url(../images/slide-mobile-02.webp);
+  background-repeat: no-repeat;
   min-height: 100vh;
   width: 100%;
   background-size: cover;
 }
 
 .third-slider {
+  background-color: #8ea9c4;
   background: url(../images/slide-mobile-03.webp);
+  background-repeat: no-repeat;
   min-height: 100vh;
   width: 100%;
   background-size: cover;
@@ -197,7 +203,9 @@ p {
 }
 
 .second-section {
-  background: url("../images/second-section-mobile.webp");
+  background-color: #f1bdc3;
+  background-image: url("../images/second-section-mobile.webp");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: 100% auto;
@@ -206,7 +214,9 @@ p {
 }
 
 .third-section {
+  background-color: #365131;
   background: url("../images/third-section-mobile.webp");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: 100% auto;
@@ -215,7 +225,9 @@ p {
 }
 
 .fourth-section {
-  background: url("../images/fourth-section-mobile.webp");
+  background-color: #f1bdc3;
+  background-image: url("../images/fourth-section-mobile.webp");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: 100% auto;
@@ -224,7 +236,9 @@ p {
 }
 
 .fifth-section {
-  background: url("../images/fifth-section-mobile.webp");
+  background-color: #79a596;
+  background-image: url("../images/fifth-section-mobile.webp");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: 100% auto;
@@ -233,7 +247,9 @@ p {
 }
 
 .sixth-section {
-  background: url("../images/sixth-section-mobile.webp");
+  background-color: #a1bfd9;
+  background-image: url("../images/sixth-section-mobile.webp");
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center center;
   background-size: 100% auto;
@@ -501,27 +517,29 @@ p {
   }
 
   .first-slider {
-    background: url(../images/slide-01.webp) no-repeat;
+    background: #8ea9c4 url(../images/slide-01.webp) no-repeat;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .second-slider {
-    background: url(../images/slide-02.webp) no-repeat;
+    background: #8ea9c4 url(../images/slide-02.webp) no-repeat;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .third-slider {
-    background: url(../images/slide-03.webp) no-repeat;
+    background: #8ea9c4 url(../images/slide-03.webp) no-repeat;
     width: 100%;
     background-size: cover;
   }
 
   .second-section {
-    background: url("../images/second-section.webp");
+    background-color: #f1bdc3;
+    background-image: url("../images/second-section.webp");
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: 100% auto;
@@ -530,7 +548,9 @@ p {
   }
 
   .third-section {
-    background: url("../images/third-section-01.webp");
+    background-color: #365131;
+    background-image: url("../images/third-section-01.webp");
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: 100% auto;
@@ -539,7 +559,9 @@ p {
   }
 
   .fourth-section {
-    background: url("../images/fourth-section.webp");
+    background-color: #f1bdc3;
+    background-image: url("../images/fourth-section.webp");
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: 100% auto;
@@ -548,7 +570,9 @@ p {
   }
 
   .fifth-section {
-    background: url("../images/fifth-section.webp");
+    background-color: #79a596;
+    background-image: url("../images/fifth-section.webp");
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: 100% auto;
@@ -557,7 +581,9 @@ p {
   }
 
   .sixth-section {
-    background: url("../images/sixth-section.webp");
+    background-color: #a1bfd9;
+    background-image: url("../images/sixth-section.webp");
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: 100% auto;
@@ -567,7 +593,7 @@ p {
 
   .seventh-section {
     background: linear-gradient(75deg, #edc3c8, #a0b8a7, #dcaca1, #a2c4df);
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
   }
 
